@@ -1,0 +1,10 @@
+{% extends 'main/layout.html' %}
+{% block title %}
+    Информация
+{%endblock%}
+{% block content %}
+    <h1>Информация</h1>
+    <p>Ваш файл: {{ document.descriptions }}</p>
+    <p>Время загрузки файла в облако: {{document.date_upload}}</p>
+    <p>Описание: {{document.descriptions}}</p>
+{% endblock %}

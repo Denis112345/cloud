@@ -1,0 +1,9 @@
+{% extends 'main/layout.html' %}
+{% block title %}
+    {{document}}
+{%endblock%}
+{% block content %}
+    <h1>{{document.descriptions}}</h1>
+    <a href="{{document.document.url}}" download="">ds</a>
+
+{% endblock %}
